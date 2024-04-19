@@ -1,0 +1,37 @@
+/*navegador*/
+.navegador{
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    display: flex;
+    gap: 20px;
+    background-color: $color-primario;
+    top: 0px;
+    z-index: 2;
+
+}
+.navegador img{
+    width: 80px;
+    height: 80px;
+}
+.navegador-links{
+    display: flex;
+    gap: 30px;
+}
+.navegador-link a{
+    display: block;
+    padding: 20px 5px;
+    color: $color-terciario;
+    text-decoration: none;
+}
+.navegador-link{
+    gap: 30px;
+    list-style: none;
+}
+.navred{
+    color: $color-terciario;
+    font: 25px;
+    font-size: medium;
+    padding: 20px 0px;
+    text-decoration: none;
+}

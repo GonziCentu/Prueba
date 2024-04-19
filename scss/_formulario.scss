@@ -1,0 +1,45 @@
+/*formulario*/
+.form-contacto{
+    background-color: rgb(114, 114, 119);
+    width: 550px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+} 
+.form-contacto-grup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0px;
+
+}
+.from-contanto-gurpo-laber{
+    color: $color-contraste;
+
+}
+.from-contanto-gurpo-imput{
+    width: 100%;
+    background-color: transparent;
+    color: $color-contraste;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.from-contanto-gurpo-texarea{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid $color-contraste;
+    padding: 5px 10px;
+}
+.formulario-contacto-boton{ 
+    width: 100%;
+    font-weight: bold;
+    background-color: $color-contraste;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+.formulario-contacto-boton:hover{
+    background-color: $color-terciario;
+}

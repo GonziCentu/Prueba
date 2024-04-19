@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+@import "./scss/reset";
+@import "./scss/variables";
+@import "./scss/titulo";
+@import "./scss/formulario";
+@import "./scss/opciones";
+@import "./scss/navegador";
+@import "./scss/portada";
+@import "./scss/tarjeta";
+@import "./scss/galeria";
+@import "./scss/footer";
+@import "./scss/caja";
+
+
+
+
+
+/* Media Query*/
+@media (max-width: 1024px){
+    .titulo{
+        font-size: 150px;
+    }
+}
+@media (max-width: 992px){
+    .titulo{
+        font-size: 100px;
+    }
+    .galeria{
+        width: 100%;
+    }
+    .tarjeta{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px){
+    .titulo{
+        font-size: 60px;
+    }
+}
+@media (max-width: 480px){
+    .titulo{
+        font-size: 48px;
+    }
+}

@@ -1,0 +1,27 @@
+/*caja*/
+.caja{
+    width: 300px;
+    height: 400px;
+    background-color: $color-secundario;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 80px;
+    display: inline-flex; 
+    overflow: auto;
+    position: relative;
+}
+.caja-titulo{
+     color:  black;
+     font-style: unset;
+     text-align: center;
+     padding: 10px;
+     position: absolute;
+}
+.caja-texto{
+    color: black;
+    font: caption;
+    padding: 40px 50px;
+    position: absolute;
+}
