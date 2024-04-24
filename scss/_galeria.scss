@@ -5,15 +5,18 @@
     display: grid;
     gap: 0px;    
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(6,100px);
+    grid-template-rows: repeat(6,100px); 
     grid-template-areas: "img1 img3 img3 img6"
                          "img1 img3 img3 img6"
                          "img1 img2 img5 img6"
                          "img4 img2 img5 img7"
                          "img4 img2 img5 img7"
                          "img4 img2 img5 img7";
-
-    
+    @media (max-width:992px){
+        width: 100%;
+        padding: 5px;
+    }
+       
 }
 .img1{
     grid-area: img1;
