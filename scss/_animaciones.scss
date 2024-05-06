@@ -1,0 +1,15 @@
+/*animcaicoines*/
+.tarjeta{
+    width: 300px;
+    height: 300px;
+    background-color: $color-secundario;
+    margin: 70px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    transition: 1s;
+    &:hover{
+        transform: scale(1.2); translate: 10px 20px;
+      
+    }
+}
